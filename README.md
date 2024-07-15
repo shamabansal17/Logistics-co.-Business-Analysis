@@ -1,4 +1,4 @@
-# **Logistics co. Business Analysis**
+# **Logistics Company Business Analysis**
 <br>
 Extensive data analysis of a logistics company to improve its business and enhance customer satisfaction.
 
