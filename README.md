@@ -1,9 +1,11 @@
 # **Logistics Company Business Analysis**
 <br>
-Extensive data analysis of a logistics company to improve its business and enhance customer satisfaction.
 
 ## **About Company**
 Delhivery is the largest and fastest-growing fully integrated player in India by revenue in Fiscal 2021. They aim to build the operating system for commerce, through a combination of world-class infrastructure, logistics operations of the highest quality, and cutting-edge engineering and technology capabilities.
+Here’s the updated README focusing solely on EDA:  
+
+---
 
 ## **Problem Statement**
 
@@ -40,6 +42,14 @@ from data.<br>
 ● The case study goes beyond data analysis by focusing on deriving actionable insights
 for a business. Learners will understand how data analysis can drive informed
 decision-making and recommendations.<br><br>
+ 
+
+## Features  
+- **Data Cleaning**: Handles missing, inconsistent, and irrelevant data.  
+- **Feature Engineering**: Extracts key metrics such as delivery times, distances, and efficiency ratios.  
+- **Descriptive Analysis**: Explores patterns in trip times, route types, and distances.  
+- **Visualization**: Provides insights through graphs and charts for better understanding.  
+
 
 ## **Column Profiling:**
 1. data - tells whether the data is testing or training data
@@ -78,3 +88,31 @@ package delivery
 23. segment_osrm_distance – This is the OSRM distance. Distance covered by subset of
 the package delivery
 24. segment_factor – Unknown field
+
+
+### Dataset Source  
+To use the dataset, download it from the provided link as a `.csv` file.  
+
+## Steps to Perform EDA  
+1. **Load the Dataset**  
+   Import the `.csv` file into your analysis environment using tools like pandas.  
+
+2. **Data Cleaning**  
+   - Handle missing or unknown fields (e.g., `is_cutoff`, `cutoff_factor`).  
+   - Format timestamps and correct inconsistencies in route data.  
+
+3. **Exploratory Data Analysis**  
+   - Analyze trip creation patterns and route efficiency.  
+   - Compare actual vs. predicted times and distances.  
+   - Visualize key metrics using bar plots, histograms, and line charts.  
+
+4. **Insights**  
+   - Identify trends in delivery times across route types.  
+   - Understand deviations between predicted and actual performance metrics.  
+   - Highlight operational bottlenecks and areas for improvement.  
+
+## Tools and Technologies  
+- **Programming Language**: Python  
+- **Libraries**:  
+  - pandas, NumPy: For data processing.  
+  - Matplotlib, Seaborn: For data visualization.  
